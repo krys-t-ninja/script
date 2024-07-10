@@ -1,0 +1,43 @@
+/*var day = "Thursday"
+
+
+// if the day is Friday <1 yay its Friday!
+//if the day is Saturday <1 its still the weekend!
+//if the day is Sunday <1 last day of your weekend
+// any other day should <1 just another weekday
+
+if(day == "Friday"){
+    console.log("Yay its Friday");
+
+}else if (day =="Saturday"){
+    console.log("Its still the weekend!")
+}else if ( day =="Sunday"){
+    console.log("last day of the weekend")
+
+}else{
+    console.log("Just another day")
+}
+*/
+
+
+   // write a function called FizzBuzz
+   // write a for loop starting at 1 going to 100
+   // for numbers that are a multiple of both 3 and 5 , print "FizzBuzz"
+   // for each number that is a multiple of  5. print "Buzz"
+   // for each number that is a multiplpe of 3, print "Fizz"
+   // all other numbers should print normally
+
+   function FizzBuzz(){
+    for (var num = 1; num <= 100; num++){
+        if (num % 15 == 0) {
+            console.log("FizzBuzz");
+        }else  if  (num % 5 == 0){
+            console.log("Buzz");
+        }else if (num % 3 == 0){
+            console.log("Fizz");
+        }else {
+            console.log(num); 
+        }
+    }    
+} 
+FizzBuzz();
